@@ -1,0 +1,52 @@
+:root{
+    --font-padrao: 'Poppins';
+    --verde-escuro: #14424b ;
+    --verde: #2f9364 ;
+    --laranja: #ff7c37 ;
+    --degrade-btn: linear-gradient(#fe9611, #ff5c00) ;
+    --cor-p: #a1a1a1 ;
+    --cor-p2: #868585 ;
+}
+@media (max-width:960px){
+    .menu-icon{
+        display: block;
+        transition: 0.4s;
+    }
+    .ul{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: 100%;
+        background-color: var(--verde-escuro);
+        transition: 0.4s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    }
+    .ul li{
+        font-size: 24px;
+    }
+    .ativo{
+        position: fixed;
+        left: 0;
+    }
+
+    main .container{
+        flex-direction: column;
+    }
+    main .container .main-text .main-img{
+        width: 100%;
+    }
+    main .container .main-text{
+        text-align: center;
+    }
+    main .container .main-text h1{
+        font-size: 4em;
+        text-align: center;
+    }
+    main .container .main-text div{
+        justify-content: center;
+    }
+}
