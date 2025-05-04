@@ -49,4 +49,46 @@
     main .container .main-text div{
         justify-content: center;
     }
+    .resultados .container{
+        flex-direction: column;
+        
+    }
+    .resultados-numero{
+        margin-top: 30px;
+    }
+    .resultados .resultados-text, .resultados .resultados-numeros{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:450px){
+    .resultados .resultados-numero{
+        display: flex;
+        flex-direction: column;
+    }
+    .resultados .resultados-numero{  
+        font-size:1.7rem;
+        font-weight: 400;
+        
+    
+    }
+    .resultados .resultados-numero p span{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    
+}
+@media (max-width:725px){
+
+    main .container .main-text h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width:540px){
+
+    main .container .main-text h1{
+        font-size: 2.25rem;
+    }
 }
